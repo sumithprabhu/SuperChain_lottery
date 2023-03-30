@@ -1,0 +1,169 @@
+.app__navbar{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem;
+    background-color: rgba(240, 153, 153, 0.2);
+    border: 1px solid rgba(233, 144, 144, 0.3);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    z-index: 2;
+    .button1{
+      margin-right: 50px;
+      margin-left: 50px;
+      font-size: 15px;
+      background-color: #061161;
+      color: white;
+      border-width: 0.5px;
+      padding: 5px 15px;
+      transition: all 0.6s ease-in-out;
+      cursor: pointer;
+      border-radius: 5px;
+      &:hover{
+        background-color:#1d2878;
+        
+      }
+      
+    }
+    
+  }
+  .app__navbar-title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+  
+    font-size: 25px;
+   
+    
+  
+  }
+  .app__navbar-links{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+  
+    li {
+        margin:0 1rem ;
+        cursor: pointer;
+        list-style: none;
+        a{
+            color: var(--gray-color);
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: all 0.4s ease-in-out;
+            font-weight: 600;
+  
+            &:hover{
+                color: var(--secondary-color);
+            }
+        }
+    }
+   
+  }
+
+
+
+  .lottery{
+    background: #780206; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #375bd2,
+      #1db227
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #375bd2,
+      #1db227
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    position: relative;
+    height: 620px;
+    padding-top: 100px;
+    color: white;
+  }
+  .checkPayment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .checkPayment-des{
+    width:950px;
+    margin-left: 200px;
+    font-size: 20px;
+    text-align: center;
+    
+  }
+  
+  .checkPayment-btn{
+    height: 50px;
+    margin-top: 35px;
+    margin-right: 200px;
+    width:100px
+  }
+  .transact-des{
+    width:1100px;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+  .transact-sec{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 20px;
+  }
+  .transact-in{
+    margin-left: 500px;
+    text-align: center;
+    background: transparent;
+    border-color: white;
+    border-style:solid;
+    color: white;
+   height: 43px;
+    width: 200px;
+    margin-top: 2px;
+  }
+  .transact-btn{
+    margin-right: 500px;
+    height: 50px;
+    width: 200px;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 2; /* Firefox */
+  }
+
+  .refresh-sec{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 20px;
+  }
+  .refresh-des{
+    width:950px;
+    margin-left: 200px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .refresh-btn{
+    height: 50px;
+    margin-top: 35px;
+    margin-right: 200px;
+    width:100px
+  }
+  .claim-table{
+    margin: auto;
+  }
+  .claim-c1{
+    text-align: center;
+  }
+  .payment-des{
+    text-align: center;
+  }
