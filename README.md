@@ -28,7 +28,6 @@ As part of Challenges,
 - Was not able transfer supertoken using solidity function call.
 - Struggled with react hooks.
 - Runtime error while deployment.
-- 
 
 Although all errors are solved now, and the project is up and running.
 
@@ -67,18 +66,18 @@ ___
 
 ## Screenshots
 
-![App Screenshot](https://github.com/sumithprabhu/SuperPush_Dapp/blob/main/src/Images/Screenshot_20230129_223907.png?raw=true)
+![App Screenshot](https://github.com/sumithprabhu/SuperChain_lottery/blob/main/src/Images/Screenshot%202023-03-31%20182443.png)
 
-                                                         Home
+                                                         
 
-![App Screenshot](https://github.com/sumithprabhu/SuperPush_Dapp/blob/main/src/Images/Screenshot_20230129_223925.png?raw=true)
+![App Screenshot](https://github.com/sumithprabhu/SuperChain_lottery/blob/main/src/Images/Screenshot%202023-03-31%20182504.png)
 
-                                                     Create Stream
+                                                    
 
-![App Screenshot](https://github.com/sumithprabhu/SuperPush_Dapp/blob/main/src/Images/Screenshot_20230129_223953.png?raw=true)
+![App Screenshot](https://github.com/sumithprabhu/SuperChain_lottery/blob/main/src/Images/Screenshot%202023-03-31%20182510.png)
 
-                                                     Update Stream
+                                                    
 
-![App Screenshot](https://github.com/sumithprabhu/SuperPush_Dapp/blob/main/src/Images/Screenshot_20230129_224017.png?raw=true)
+![App Screenshot](https://github.com/sumithprabhu/SuperChain_lottery/blob/main/src/Images/Screenshot%202023-03-31%20182534.png)
 
-                                                     Delete Stream
+                                                    
