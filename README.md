@@ -1,70 +1,84 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SuperChain Lottery
 
-## Available Scripts
+SuperChain Lottery is a lottery system same as traditonal lottery but is backed by the powers of blockchain.
 
-In the project directory, you can run:
+The Chainlink Verifiable Random Function is used to generate a truly random number, which is used to determine the winner of the lottery. The protocol uses decentralized nodes to generate random numbers, ensuring that the process is unbiased and secure. This ensures that no party can manipulate the outcome of the lottery.
 
-### `npm start`
+The Chainlink Upkeep automation is used to automate the process of withdrawing lottery results. This ensures that the results are processed and announced automatically, without any human intervention. This feature eliminates the possibility of human error and makes the entire process more efficient.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Finally, Superfluid IDA is used to distribute the prize money to the winner of the lottery. The protocol enables instant money transfer, allowing the winner to receive their prize money in real-time. This feature is particularly useful in ensuring that the winner receives their prize money quickly and without any delay.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Overall, this website provides a seamless and secure platform for conducting lotteries. By leveraging the latest blockchain technologies, it ensures that the entire process is transparent, fair, and efficient.
 
-### `npm test`
+Features:
+-
+- No human intervention.
+- If Lottery quota is full , result is processed after every 15 minutes interval.
+- Real randomness in result.
+- Instant claim for prize pool winners.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Problem it solves:
+-
+This DApp solves several problems associated with traditional lotteries, including lack of transparency, potential for manipulation, and delays in prize money distribution. By leveraging the latest blockchain technologies, it provides a secure, efficient, and transparent platform for conducting lotteries.
 
-### `npm run build`
+Challenges faced:
+-
+As part of Challenges,
+- Was not able transfer supertoken using solidity function call.
+- Struggled with react hooks.
+- Runtime error while deployment.
+- 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Although all errors are solved now, and the project is up and running.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Project Link:
+-
+[SuperPush](https://superpush.netlify.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Run Project:
+-
+To Run this project on your local system , follow the below steps:
+1) Clone the repo
+```
+git clone https://github.com/sumithprabhu/SuperChain_lottery
+```
 
-### `npm run eject`
+2) Install packages
+```
+npm install 
+```
+3) The project can be straight away passed to next step, but so as to make it indigeniously deploy the code and replace the contract address with the one of yours and also change the API key for polygon scan in Lottery.js file.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4) Run the code
+``` 
+npm start
+```
+5) The project is good to go 🚀
+.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+___
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Screenshots
 
-### Analyzing the Bundle Size
+![App Screenshot](https://github.com/sumithprabhu/SuperPush_Dapp/blob/main/src/Images/Screenshot_20230129_223907.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+                                                         Home
 
-### Making a Progressive Web App
+![App Screenshot](https://github.com/sumithprabhu/SuperPush_Dapp/blob/main/src/Images/Screenshot_20230129_223925.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+                                                     Create Stream
 
-### Advanced Configuration
+![App Screenshot](https://github.com/sumithprabhu/SuperPush_Dapp/blob/main/src/Images/Screenshot_20230129_223953.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+                                                     Update Stream
 
-### Deployment
+![App Screenshot](https://github.com/sumithprabhu/SuperPush_Dapp/blob/main/src/Images/Screenshot_20230129_224017.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+                                                     Delete Stream

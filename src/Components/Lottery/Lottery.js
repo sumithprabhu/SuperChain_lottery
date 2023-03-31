@@ -23,7 +23,7 @@ const Lottery = ({contract, account }) => {
    
     
     await fetch(
-      "https://api-testnet.polygonscan.com/api?module=account&action=tokentx&contractaddress=0x5D8B4C2554aeB7e86F387B4d6c00Ac33499Ed01f&address=0xD92B9291ba233110F7374aa79E76C9b8c4DBC315&page=1&offset=5&sort=asc&apikey=VSQXD93C3MMJERVVZ5H6BB9NUN49VG9DI2"
+      "https://api-testnet.polygonscan.com/api?module=account&action=tokentx&contractaddress=0x5D8B4C2554aeB7e86F387B4d6c00Ac33499Ed01f&address=0xCd9E5F2e53d74abBFd5d429F348c57E0d3062CF4&page=1&offset=5&sort=asc&apikey=VSQXD93C3MMJERVVZ5H6BB9NUN49VG9DI2"
     )
       .then((response) => {
         return response.json();
@@ -115,7 +115,7 @@ const claimLottery = async (e) => {
       <div className="payment">
         <p className="payment-des">{paymentMsg}</p>
         <div className="checkPayment">
-        <p className="checkPayment-des">Welcome to SUPERCHAIN LOTTERY ,inorder to purchase a lottery you first need to send 100 FDAIx which lottery ticket price to the contract address : 0x0000000000000000000 , after successful transaction you press the check button inorder to check payment status</p>
+        <p className="checkPayment-des">Welcome to SUPERCHAIN LOTTERY ,inorder to purchase a lottery you first need to send 100 FDAIx which lottery ticket price to the contract address : 0xCd9E5F2e53d74abBFd5d429F348c57E0d3062CF4 , after successful transaction you press the check button inorder to check payment status</p>
         <button className="checkPayment-btn" onClick={checkPayment}>Check</button>
         </div>
         

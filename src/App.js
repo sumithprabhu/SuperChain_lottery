@@ -15,7 +15,7 @@ const App = () => {
   const [contract, setContract] = useState(null);
   const [walletConnected, setWalletConnected] = useState(false);
   const web3ModalRef = useRef();
-  const CONTRACT_ADDRESS = "0xD92B9291ba233110F7374aa79E76C9b8c4DBC315";
+  const CONTRACT_ADDRESS = "0xCd9E5F2e53d74abBFd5d429F348c57E0d3062CF4";
 
   useEffect(() => {
     //console.log(contract.winner())
