@@ -33,7 +33,7 @@ Although all errors are solved now, and the project is up and running.
 
 Project Link:
 -
-[SuperPush](https://superpush.netlify.app/)
+[SuperChain Lottery](https://superchain.netlify.app/)
 
 Run Project:
 -
